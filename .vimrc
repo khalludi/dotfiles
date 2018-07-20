@@ -1,4 +1,7 @@
+
 colors zenburn
+syntax on
+set ruler
 
 " => Text, tab and indent related
 
