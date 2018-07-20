@@ -23,7 +23,7 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=( git docker cp zsh-syntax-highlighting )
 
 # Spaceship settings
-SPACESHIP_PROMPT_ORDER=( time user host dir git )
+#SPACESHIP_PROMPT_ORDER=( time user host dir git )
 SPACESHIP_DOCKER_SHOW=false
 
 # Sourcing oh-my-zsh and other shell helpers
