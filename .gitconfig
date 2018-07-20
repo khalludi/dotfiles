@@ -1,0 +1,13 @@
+[user]
+  name = Khalid Ali
+  email = khalludi123@gmail.com
+
+[github]
+  user = khalludi
+
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = vim
+  filemode = false
+  trustctime = false
+    autocrlf = input
