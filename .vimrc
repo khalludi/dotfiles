@@ -1,7 +1,13 @@
+" Use pathogen for plugins
+execute pathogen#infect()
 
+" Basic settings
 colors zenburn
 syntax on
 set ruler
+
+" Pathogen plugin settings
+autocmd vimenter * NERDTree
 
 " => Text, tab and indent related
 
