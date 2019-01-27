@@ -22,3 +22,12 @@ else
     git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
     git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git ~/.vim/bundle/nerdtree-git-plugin
 fi
+
+# Install brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Get zenburn color scheme
+brew install wget
+wget https://raw.githubusercontent.com/jnurmine/Zenburn/master/colors/zenburn.vim
+mkdir ~/.vim/colors
+mv zenburn.vim ~/.vim/colors
